@@ -128,12 +128,22 @@ main {
 }
 
 #circleSkill {
-    width: 100px;
+    width: 170px;
     aspect-ratio: 1/1;
     background-color: #E9B766;
     border: 1px solid #E9B766;
     position: fixed;
+    bottom: -70px;
+    left: 50%;
+    transform: translate(-25%);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.skill img {
+    position: fixed;
     bottom: -50px;
     left: 50%;
-    border-radius: 50%;
+    display: none;
+
 }
