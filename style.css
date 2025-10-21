@@ -1,0 +1,139 @@
+/* #20202A */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: #18181f;
+    font-family: "Reem Kufi", sans-serif;
+    /* background-image: url(./ressource/fond\ portfolio.png);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+      */
+}
+
+header {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 10%;
+    border-right: 2px solid #E9B766;
+    background-color: #20202A;
+    color: aliceblue;
+    min-width: 150px;
+}
+
+.logo {
+    margin : 10px;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    aspect-ratio: 3/1;
+    margin-bottom: 30px;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.nav-bar ul li {
+    height: 60px;
+    list-style: none;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    border-top: 1px solid #505051;
+    border-bottom: 1px solid #505051;
+}
+
+.nav-bar ul li:hover {
+    background-color: #18181f;
+  
+
+}
+
+.nav-bar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+main {
+    margin-left: max(160px, 11%);
+    position:absolute ;
+    color: aliceblue;
+
+}
+
+.titre h1 {
+    font-size: 42px;
+    margin-left: 10px;
+}
+
+.titre h2 {
+    font-size: 24px;
+    position: relative;
+    top : -15px;
+    left: 78px
+}
+
+.presentation h3 {
+    position: relative;
+    top: 55px;
+    max-width: 60%;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.contact {
+    position: relative;
+    top: 120px;
+    width: 60%;
+    /* display: inline-flex; */
+}
+
+.contact ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    padding: 16px;
+}
+
+.contact ul li img {
+    aspect-ratio: 1/1;
+    width: 100px;
+}
+
+#circleSkill {
+    width: 100px;
+    aspect-ratio: 1/1;
+    background-color: #E9B766;
+    border: 1px solid #E9B766;
+    position: fixed;
+    bottom: -50px;
+    left: 50%;
+    border-radius: 50%;
+}
